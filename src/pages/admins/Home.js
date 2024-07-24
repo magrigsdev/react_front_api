@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Side from './Side';
-import Dashboard from './Dashboard';
+import { Outlet } from 'react-router-dom';
 
 
 const Home = () => {
@@ -9,8 +9,7 @@ const Home = () => {
         <>
             <Header/>
             <Side/>
-            
-            <Dashboard/>
+            <Outlet/>
         </>
     );
 };

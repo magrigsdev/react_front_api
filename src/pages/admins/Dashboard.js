@@ -402,11 +402,8 @@ const Dashboard = () => {
             <div className="card-body pb-0">
               <h5 className="card-title">Budget Report <span>| This Month</span></h5>
 
-                                    {/* <div id="budgetChart" style="min-height: 400px;" className="echart"></div> */}
-                                    <div id="budgetChart" className="echart"></div>
-
-             
-
+                {/* <div id="budgetChart" style="min-height: 400px;" className="echart"></div> */}
+                 <div id="budgetChart" className="echart"></div>
             </div>
           </div>
 
@@ -430,9 +427,6 @@ const Dashboard = () => {
 
                                     {/* <div id="trafficChart" style="min-height: 400px;" className="echart"></div> */}
                                     <div id="trafficChart"  className="echart"></div>
-
-              
-
             </div>
           </div>
 
